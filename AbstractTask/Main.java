@@ -7,8 +7,13 @@ public class Main{
         Dog dog = new Dog();
         Cat cat = new Cat();
 
+        Animal chicken = new Chicken(); // <--- Odniesienie do klasy nadrzednej Animal, zamiast do Chicken
+        Dog.Stomach stomach =  dog.new Stomach();// <---deklaracja obiektu klasy w klasie
+
+        stomach.howmanykidneys();
+
         
-        
+       chicken.stepsSound();// <---- funkcja wyswietla to co ma kurak, nie abstrakcyjna Animal
 
         System.out.print("Dog goes ");
         dog.sound();
