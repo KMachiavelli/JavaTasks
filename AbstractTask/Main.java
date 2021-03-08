@@ -8,7 +8,8 @@ public class Main{
         Cat cat = new Cat();
 
         Animal chicken = new Chicken(); // <--- Odniesienie do klasy nadrzednej Animal, zamiast do Chicken
-        Dog.Stomach stomach =  dog.new Stomach();// <---deklaracja obiektu klasy w klasie
+        
+        Dog.Stomach stomach =  dog.new Stomach();// <---deklaracja obiektu klasy w klasie 
 
         stomach.howmanykidneys();
 
