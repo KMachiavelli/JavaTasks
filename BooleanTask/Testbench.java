@@ -37,7 +37,10 @@ public class Testbench {
     
             }
             Q = p & q;
-            System.out.println(p +" "+ q +" "+ Q);
+
+//istnieje rowniez warunek operatorowy && ktory sprawdza czy juz sam pierwszy wyraz nie jest 0, bo wtedy i tak nie warto dalej sprawdzac
+//analogicznie || i 1           
+System.out.println(p +" "+ q +" "+ Q);
     
             }
 
