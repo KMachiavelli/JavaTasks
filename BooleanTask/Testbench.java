@@ -9,7 +9,7 @@ public class Testbench {
        
        
         System.out.println("TABELA AND:");
-        System.out.println("  p  "+"  q  "+"  Q  ");
+        System.out.println("p"+"\tq"+"\tQ");
 
         for(int i=0; i<4;i++){
             switch(i){
@@ -40,7 +40,7 @@ public class Testbench {
 
 //istnieje rowniez warunek operatorowy && ktory sprawdza czy juz sam pierwszy wyraz nie jest 0, bo wtedy i tak nie warto dalej sprawdzac
 //analogicznie || i 1.           
-System.out.println(p +" "+ q +" "+ Q);
+System.out.println(p +"\t"+ q +"\t"+ Q);
     
             }
 
@@ -52,7 +52,7 @@ System.out.println(p +" "+ q +" "+ Q);
 
       
        System.out.println("TABELA OR:");
-       System.out.println("  p  "+"  q  "+"  Q  ");
+       System.out.println("p"+"\tq"+"\tQ");
        for(int i=0; i<4;i++){
         switch(i){
 
@@ -79,7 +79,7 @@ break;
 
         }
         Q = p | q;
-        System.out.println(p +" "+ q +" "+ Q);
+        System.out.println(p +"\t"+ q +"\t"+ Q);
 
         }
     }
@@ -90,7 +90,7 @@ break;
       
 
         System.out.println("TABELA XOR:");
-        System.out.println("  p  "+"   q  "+"   Q  ");
+        System.out.println("p"+"\tq"+"\tQ");
         for(int i=0; i<4;i++){
             switch(i){
     
@@ -117,7 +117,7 @@ break;
     
             }
             Q = p ^ q;
-            System.out.println(p +" "+ q +" "+ Q);
+            System.out.println(p +"\t"+ q +"\t"+ Q);
     
             }
 
@@ -129,7 +129,7 @@ break;
       
 
         System.out.println("TABELA XAND:");
-        System.out.println("  p  "+"   q  "+"   Q  ");
+        System.out.println("p"+"\tq"+"\tQ");
         for(int i=0; i<4;i++){
             switch(i){
     
@@ -156,7 +156,7 @@ break;
     
             }
             Q = !(p^q);
-            System.out.println(p +" "+ q +" "+ Q);
+            System.out.println(p +"\t"+ q +"\t"+ Q);
     
             }
 
