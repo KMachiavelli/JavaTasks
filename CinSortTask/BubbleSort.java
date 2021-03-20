@@ -31,22 +31,17 @@ if(permission)
         int k=0;
         if(permission)
         {
-        char[] varx = new char[x.length];
-
-        for(int i=1; i<x.length ; i++) // znow przez ten nextLine dla String
-        {
-        varx[i] = x[i].charAt(0);
-        }
-
+     
         for (int i = 1; i < x.length   ; i++)
         {
             for (int j = 1; j < x.length - i  ; j++)
             {
-                while(x[j+1].charAt(k) == x[j].charAt(k))
+                while(x[j+1].charAt(k) == x[j].charAt(k) && !x[j].equals(x[j+1]))
                     {
                         k++;
                     }
-                if(x[j+1].charAt(k) < x[j].charAt(k))
+
+                if(x[j+1].charAt(k) < x[j].charAt(k) && !x[j].equals(x[j+1]))
                 { 
                     String h;
                     
