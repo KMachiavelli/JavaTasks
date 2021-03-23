@@ -7,6 +7,7 @@ public class Cin {
     int ileliczb;
     int[]  liczba; 
 
+    
     int ileslow;
     String[] slowo;
 
