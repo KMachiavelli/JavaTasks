@@ -1,3 +1,5 @@
+package CinSortTask;
+
 import java.util.*;
 
 public class Cin {
